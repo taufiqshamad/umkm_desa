@@ -3,7 +3,7 @@
 @section('content')
 <script>
     // [START maps_marker_clustering]
-    const domain = "http://umkm_desa.test/";
+    const domain = window.location.protocol+"//"+window.location.hostname+"/";
     function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 10,
