@@ -142,28 +142,28 @@
             <div class="flex bg-gray-100 rounded-md items-center p-9 transition transform hover:scale-110">
                 <img class="w-full" src="{{ asset('images/icon-food2.png') }}" alt="">
             </div>
-            <span class="mt-2"><strong id="makanan_count">...</strong> UMKM</span>
+            <span class="mt-2"><strong id="makanan_count">...</strong> IKM</span>
             <span>Makanan</span>
         </a>
         <a href="" id="minuman_link" class="flex flex-col justify-center text-center">
             <div class="flex bg-gray-100 rounded-md items-center p-9 transition transform hover:scale-110">
                 <img class="w-full" src="{{ asset('images/icon-beverage2.png') }}" alt="">
             </div>
-            <span class="mt-2"><strong id="minuman_count">...</strong> UMKM</span>
+            <span class="mt-2"><strong id="minuman_count">...</strong> IKM</span>
             <span>Minuman</span>
         </a>
         <a href="" id="pakaian_link" class="flex flex-col justify-center text-center">
             <div class="flex bg-gray-100 rounded-md items-center p-9 transition transform hover:scale-110">
                 <img class="w-full" src="{{ asset('images/icon-cloth2.png') }}" alt="">
             </div>
-            <span class="mt-2"><strong id="pakaian_count">...</strong> UMKM</span>
+            <span class="mt-2"><strong id="pakaian_count">...</strong> IKM</span>
             <span>Pakaian</span>
         </a>
         <a href="" id="pariwisata_link" class="flex flex-col justify-center text-center">
             <div class="flex bg-gray-100 rounded-md items-center p-9 transition transform hover:scale-110">
                 <img class="w-full" src="{{ asset('images/icon-vacation2.png') }}" alt="">
             </div>
-            <span class="mt-2"><strong id="pariwisata_count">...</strong> UMKM</span>
+            <span class="mt-2"><strong id="pariwisata_count">...</strong> IKM</span>
             <span>Pariwisata</span>
         </a>
       </div>

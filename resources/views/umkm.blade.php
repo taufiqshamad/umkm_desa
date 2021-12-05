@@ -14,7 +14,7 @@
         </div>
 
         <div class="flex mt-6">
-            <h1 class="text-3xl font-medium">UMKM dan Tempat Wisata di {{ $village->name }}</h1>
+            <h1 class="text-3xl font-medium">IKM dan Tempat Wisata di {{ $village->name }}</h1>
         </div>
 
         <div class="flex mt-10 border-b border-gray-200">
@@ -53,7 +53,7 @@
                             <div class="flex items-center justify-center pl-6">
                                 <img class="filter contrast-0" src="{{ asset('images/iconsax-linear/search-normal.svg') }}">
                             </div>
-                            <input type="text" class="px-4 py-0 focus:outline-none border-none bg-gray-100 w-full rounded-tr-full rounded-r-full" placeholder="Cari UMKM">
+                            <input type="text" class="px-4 py-0 focus:outline-none border-none bg-gray-100 w-full rounded-tr-full rounded-r-full" placeholder="Cari IKM">
                         </div>
                         <div class="flex h-16 flex-row items-center gap-4">
                             <span>Filter :</span>

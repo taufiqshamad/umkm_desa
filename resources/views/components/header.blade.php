@@ -16,7 +16,7 @@
         <div class="col-span-2">
             <div class="flex h-16 flex-wrap justify-end items-center gap-6 text-sm">
                 <a href="/" class="{{!empty($active)?($active=="home"?"text-green-700":""):""}}">Beranda</a>
-                <a href="/" class="hover:text-green-700">Semua UMKM</a>
+                <a href="{{ route('umkm.all') }}" class="hover:text-green-700 {{!empty($active)?($active=="all-umkm"?"text-green-700":""):""}}">Semua IKM</a>
                 <img class="h-full p-2" src="{{ asset('images/avatar.png') }}">
             </div>
         </div>

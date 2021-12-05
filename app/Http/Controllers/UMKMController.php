@@ -52,8 +52,17 @@ class UMKMController extends Controller
         $related_umkm = UMKM::where('id','!=',$umkm->id)->where('village_id', $umkm->village_id)->limit(8)->get();
         return view('umkm-detail', compact('umkm', 'related_umkm'));
     }
+    
     public function import()
     {
         Excel::import(new UMKMImport, 'IKM Deli Serdang.xlsx');
+    }
+
+    public function allUMKM()
+    {
+        $UMKMs = UMKM::orderBy('is_featured', 'DESC')->paginate(60);
+        // dd($UMKMs);
+        $active = 'all-umkm';
+        return view('all-umkm', compact('UMKMs', 'active'));
     }
 }

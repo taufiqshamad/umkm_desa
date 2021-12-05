@@ -4,7 +4,7 @@
 <div class="flex container mx-auto px-14 mt-16 flex-col pb-40">
         
     <div class="flex flex-row">
-        <span class="text-gray-500">Semua UMKM</span>
+        <span class="text-gray-500">Semua IKM</span>
         <span class="mx-2">/</span>
         <span class="text-gray-500">{{ $umkm->village->name }}</span>
         <span class="mx-2">/</span>
@@ -83,14 +83,14 @@
     </div>
     <div class="flex mt-16 flex-col">
         <div class="flex justify-between">
-            <span class="text-lg font-medium">Alamat UMKM</span>
+            <span class="text-lg font-medium">Alamat IKM</span>
             <a href="" class="flex flex-nowrap px-5 py-2 hover:bg-green-50 rounded-xl">Buka di Google Map <img class="h-4 ml-1 mt-1" src="{{ asset('images/iconsax-linear/export-2.svg') }}"></a>
         </div>
         <div id="map" class="w-full h-80 mt-6 rounded-2xl"></div>
     </div>
     @if(count($related_umkm)>1)
     <div class="flex mt-16 flex-col">
-        <span class="text-lg font-medium">UMKM Terkait</span>
+        <span class="text-lg font-medium">IKM Terkait</span>
         <div class="mt-4 grid grid-cols-4 gap-4">
             @foreach($related_umkm as $related)
                 <x-u-m-k-m
